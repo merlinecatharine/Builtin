@@ -1,0 +1,282 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Builtin.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mzlVSah4Wy97",
+        "outputId": "01b7183f-fd8a-4eea-ff2a-892629321901"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "70\n"
+          ]
+        }
+      ],
+      "source": [
+        "negative_number = -70\n",
+        "print(abs(negative_number))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = pow(3, 4)\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jydoA1mPYguP",
+        "outputId": "542e06cf-1513-44f7-ae35-2a1fa79a94ce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "81\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Person:\n",
+        " name=\"merline kate\"\n",
+        " age= \"21\"\n",
+        " country= \"India\"\n",
+        " education= \"panimalar engineering college\"\n",
+        "print(dir(person))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FnnjsQzGZ2cY",
+        "outputId": "acf07039-b4d8-46b6-ef68-8ada7084cd30"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'age', 'country', 'education', 'name']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tuple= (\"m\",\"e\",\"r\",\"l\",\"i\",\"n\")\n",
+        "print (sorted(tuple,reverse=True))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-rmAOaJkaqJl",
+        "outputId": "cb16836d-b535-44d5-e532-54115ff3f3b0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['r', 'n', 'm', 'l', 'i', 'e']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names_tuple=('merline','kowsalya','sneha')\n",
+        "print(max(names_tuple))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sjQmjWJrbyAE",
+        "outputId": "031487b9-4324-4d35-e89e-fee8e1b54710"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sneha\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "0BUa52kThgG4"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number_tuple=(123,4567,8910,111213,468)\n",
+        "print(max(number_tuple))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4KjzcYqZctu8",
+        "outputId": "e09696a3-a8ad-4bc1-d3b6-ce54fb6749a0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "111213\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nearest_number=round(69.96528)\n",
+        "print(nearest_number)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BFd3n0WmdhxE",
+        "outputId": "76f467ce-b35e-4059-feab-18b2763a24e5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "70\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruit_list=[\"apple\", \"kowsalya\",\"mango\",\"pear\"]\n",
+        "print(len(fruit_list))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jIP95ZgdeUUW",
+        "outputId": "ef1d9e0f-9888-4628-d212-9153951a3ef5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=(1,2,3,5,6)\n",
+        "print(sum(a,7))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "msnlOdmWfIdd",
+        "outputId": "e9d9cd4d-9b45-4898-b035-946af0bb0137"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "24\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "help(print)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4B9oelldfgx8",
+        "outputId": "6af18b53-f45f-464e-b100-1a55ecc56470"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Help on built-in function print in module builtins:\n",
+            "\n",
+            "print(...)\n",
+            "    print(value, ..., sep=' ', end='\\n', file=sys.stdout, flush=False)\n",
+            "    \n",
+            "    Prints the values to a stream, or to sys.stdout by default.\n",
+            "    Optional keyword arguments:\n",
+            "    file:  a file-like object (stream); defaults to the current sys.stdout.\n",
+            "    sep:   string inserted between values, default a space.\n",
+            "    end:   string appended after the last value, default a newline.\n",
+            "    flush: whether to forcibly flush the stream.\n",
+            "\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
